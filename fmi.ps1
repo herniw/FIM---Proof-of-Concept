@@ -1,8 +1,8 @@
 ﻿                                #Hernan Weiss - File Integrity Monitoring Script
 
-#This PowerShell Script has been written while following along to a Youtube Video.
-#Not all lines came from my own knowledge as I am still learning the ropes of PS1 scripting and logics.
-#Even following along presented some challenges and had to troubleshoot problems without directly copying the right answer or pieces of code.
+#This PowerShell Script has been written while using Google and Youtube videos.
+#Not all lines came from my own knowledge as I am still learning the ropes of PS scripting and logics.
+#Even following along presented some challenges as I wanted to troubleshoot problems without directly copying the right answer or pieces of code.
 
 Function Calculate-File-Hash($filepath) {
     $filehash = Get-FileHash -Path $filepath -Algorithm SHA256
